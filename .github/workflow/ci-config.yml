@@ -1,0 +1,24 @@
+name: ci-config
+on: 
+  push: 
+    branches:
+      - main
+permissions:
+  contents: read # git permissions to repo pull/push
+  id-token: write # generate OIDC tokens for authentication
+  checks: write # read/write to repo custom statuses and checks
+  pull-requests: write # modify or update pull requests
+  actions: read
+  security-events: write
+  issues: write
+ 
+jobs:
+  lint:
+   runs-on: ubuntu-latest
+
+   steps:
+    - id: checkout
+      uses: actions/checkout@v5
+
+    
+ 
