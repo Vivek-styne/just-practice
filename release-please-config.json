@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "include-v-in-tag": true,
+  "include-component-in-tag": true,
+  "tag-separator": "-",
+  "separate-pull-requests": true,
+  "packages": {
+    "src/app": {
+      "release-type": "python",
+      "component": "gfmod-fa-app",
+      "changelog-type": "github"
+    }
+  }
+}
