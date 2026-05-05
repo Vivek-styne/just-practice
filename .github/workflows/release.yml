@@ -5,8 +5,10 @@ on:
     branches:
       - main
     paths:
-      - src/mypackage/**
-      - config/**
+      - src/app/**
+      - release-please-config.json
+      - .github/workflows/release.yml
+      - pyproject.toml
  
 permissions:
   id-token: write
