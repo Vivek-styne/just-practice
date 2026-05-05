@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3 (2026-05-05)
+
+## What's Changed
+* Feature/new hotfix by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/14
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.2...gfmod-fa-app-v0.1.3
+
 ## 0.1.2 (2026-05-05)
 
 ## What's Changed
