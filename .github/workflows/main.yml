@@ -1,8 +1,25 @@
 name: ci-config
-on: 
-  push: 
+on:
+  push:
+    branches:
+      - "main"
+      - "!release-please--**"
+    paths:
+      - "src/app/**"
+      - "!**/CHANGELOG.md"
+      - "!.release-please-manifest.json"
+    tags:
+      - "gfmod-fa-app-v*"
+
+  pull_request:
     branches:
       - main
+    paths:
+      - "src/app/**"
+      - "!**/CHANGELOG.md"
+      - "!.release-please-manifest.json"
+    types: [opened, synchronize, reopened]
+ 
 permissions:
   contents: read # git permissions to repo pull/push
   id-token: write # generate OIDC tokens for authentication
