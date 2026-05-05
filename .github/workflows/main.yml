@@ -1,13 +1,6 @@
 name: ci-config
 on:
   push:
-    branches:
-      - "main"
-      - "!release-please--**"
-    paths:
-      - "src/app/**"
-      - "!**/CHANGELOG.md"
-      - "!.release-please-manifest.json"
     tags:
       - "gfmod-fa-app-v*"
 
