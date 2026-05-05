@@ -31,6 +31,7 @@ permissions:
  
 jobs:
   lint:
+    if: github.event_name != 'pull_request' || !startsWith(github.head_ref, 'release-please--')
     runs-on: ubuntu-latest
 
     steps:
