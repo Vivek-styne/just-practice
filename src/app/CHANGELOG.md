@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.9 (2026-05-06)
+
+## What's Changed
+* ci: adding file by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/26
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.8...gfmod-fa-app-v0.1.9
+
 ## 0.1.8 (2026-05-05)
 
 ## What's Changed
