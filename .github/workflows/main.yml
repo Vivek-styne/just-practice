@@ -7,7 +7,8 @@ on:
   pull_request:
     branches:
       - main
-      - !release-please-*
+    branches-ignore:
+      - "release-please--*"
     paths:
       - "src/app/**"
       - "!**/CHANGELOG.md"
