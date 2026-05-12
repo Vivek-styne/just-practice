@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.13 (2026-05-12)
+
+## What's Changed
+* ci: code upadte@v6 by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/38
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.12...gfmod-fa-app-v0.1.13
+
 ## 0.1.12 (2026-05-12)
 
 ## What's Changed
