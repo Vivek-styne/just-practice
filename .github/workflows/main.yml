@@ -1,16 +1,14 @@
 name: ci-config
 on:
-    push:
-      branches-ignore:
-        - main
-        - "release-please--*"
-
+  push:
+    branches-ignore:
+      - main
+      - "release-please--*"
     tags:
       - "gfmod-fa-app-v*"
-
   pull_request:
-    branches:
-      - main
+    branches-ignore:
+      - "release-please--*"
     paths:
       - "src/app/**"
       - "!**/CHANGELOG.md"
