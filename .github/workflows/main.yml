@@ -1,5 +1,6 @@
 name: ci-config
 on:
+  push:
     tags:
       - "gfmod-fa-app-v*"
   pull_request:
