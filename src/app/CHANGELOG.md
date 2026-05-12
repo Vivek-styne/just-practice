@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.1.10 (2026-05-12)
+
+## What's Changed
+* fix: adding code by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/28
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.9...gfmod-fa-app-v0.1.10
+
+## 0.1.9 (2026-05-06)
+
+## What's Changed
+* ci: adding file by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/26
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.8...gfmod-fa-app-v0.1.9
+
+## 0.1.8 (2026-05-05)
+
+## What's Changed
+* ci: changes in code@v2 by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/24
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.7...gfmod-fa-app-v0.1.8
+
+## 0.1.7 (2026-05-05)
+
+## What's Changed
+* ci: changes in code@v1 by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/22
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.6...gfmod-fa-app-v0.1.7
+
+## 0.1.6 (2026-05-05)
+
+## What's Changed
+* ci: changes in code by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/20
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.5...gfmod-fa-app-v0.1.6
+
 ## 0.1.5 (2026-05-05)
 
 ## What's Changed
