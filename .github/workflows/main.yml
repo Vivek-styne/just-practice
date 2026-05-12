@@ -1,11 +1,14 @@
 name: ci-config
 on:
   push:
+    branches-ignore:
+      - main
+      - "release-please--*"
     tags:
       - "gfmod-fa-app-v*"
   pull_request:
-    branches:
-      - main
+    branches-ignore:
+      - "release-please--*"
     paths:
       - "src/app/**"
       - "!**/CHANGELOG.md"
@@ -23,7 +26,7 @@ permissions:
  
 jobs:
   lint:
-    if: !startsWith(github.head_ref, 'release-please--')
+    if: "!startsWith(github.head_ref, 'release-please--')"
     runs-on: ubuntu-latest
 
     steps:
