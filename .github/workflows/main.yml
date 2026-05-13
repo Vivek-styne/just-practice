@@ -4,12 +4,11 @@ on:
     branches-ignore:
       - main
       - "release-please--*"
-      - feature/*
+      - "feature/*"
     tags:
       - "gfmod-fa-app-v*"
   pull_request:
     branches-ignore:
-      - main
       - "!release-please--*"
     paths:
       - "src/app/**"
