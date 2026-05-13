@@ -4,9 +4,9 @@ on:
     tags:
       - "gfmod-fa-app-v*"
   pull_request:
-    branches-ignore:
+    branches:
       - main
-      - "release-please--*"
+      - "!release-please--*"
     paths:
       - "src/app/**"
       - "!**/CHANGELOG.md"
