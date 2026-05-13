@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.24 (2026-05-13)
+
+## What's Changed
+* ci: adding files@v1 by @Vivek-styne in https://github.com/Vivek-styne/just-practice/pull/64
+
+
+**Full Changelog**: https://github.com/Vivek-styne/just-practice/compare/gfmod-fa-app-v0.1.23...gfmod-fa-app-v0.1.24
+
 ## 0.1.23 (2026-05-13)
 
 ## What's Changed
