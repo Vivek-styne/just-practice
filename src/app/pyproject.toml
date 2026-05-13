@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gfmod-fa-app"
-version = "0.1.24"
+version = "0.1.25"
 description = "A calculator application"
 readme = "README.md"
 requires-python = ">=3.8"
