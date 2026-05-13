@@ -1,9 +1,6 @@
 name: ci-config
 on:
   push:
-    branches-ignore:
-      - main
-      - "release-please--*"
     tags:
       - "gfmod-fa-app-v*"
   pull_request:
